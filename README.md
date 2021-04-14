@@ -1,1 +1,1 @@
-https://darioaburto.github.io/Lab2/
+https://darioaburto.github.io/sp21-cse110-lab3/
