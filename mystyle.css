@@ -39,4 +39,32 @@ label[class="_Date"] {
     font-size: 0.175in;
 }
 
+.box1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: dashed;
+    border-color: lightskyblue;
+    border-width: 1ch;
+    border-radius: 1ch;
+
+}
+
+.box2 {
+    margin: 25px 25px 25px 25px;
+    padding: 25px 25px 25px 25px;
+    border-style: dashed;
+    border-color: lightskyblue;
+    border-width: 1ch;
+    border-radius: 1ch;
+}
+
+.box3 {
+    margin: auto;
+}
 
