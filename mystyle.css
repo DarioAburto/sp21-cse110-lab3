@@ -11,6 +11,16 @@ body {
     font-size: 1.5rem;
 }
 
+b[class="red"] {
+    color: red;
+    display: inline;
+}
+b[class="none"] {
+    color: red;
+    display: none;
+}
+
+
 *.twitch {
     color: hsl(165, 100%, 40%);
     font-size: 3ch;
@@ -66,5 +76,10 @@ label[class="_Date"] {
 
 .box3 {
     margin: auto;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    text-align: left;
 }
 
