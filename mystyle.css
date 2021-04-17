@@ -36,6 +36,23 @@ p[class="_strokes"] {
 
 }
 
+p[class="size"] {
+    width: auto ;
+    height: auto;
+}
+
+p[class="sizeM"] {
+    max-width: 200x;
+    max-height: 100px;
+}
+p[class="static"] {
+    position: static;
+}
+
+div[class="fixed"] {
+    position: fixed;
+}
+
 summary[class="_newPost"] {
     font-size: 0.5cm;
 
@@ -83,3 +100,11 @@ label[class="_Date"] {
     text-align: left;
 }
 
+
+button:hover {
+    background-color: skyblue;
+}
+
+a:active{
+    color: teal;
+}
