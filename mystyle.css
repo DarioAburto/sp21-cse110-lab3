@@ -1,0 +1,20 @@
+body {
+    /* background of website */
+    background-color: honeydew;
+}
+
+.teal {
+    color: rgb(0, 128 , 128);
+}
+#pink {
+    color: #ff6699;
+}
+
+*.twitch {
+    color: hsl(165, 100%, 40%);
+}
+
+h1 {
+    /*color of heading*/
+    color:teal;
+}
