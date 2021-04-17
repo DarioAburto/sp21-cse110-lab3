@@ -8,13 +8,35 @@ body {
 }
 #pink {
     color: #ff6699;
+    font-size: 1.5rem;
 }
 
 *.twitch {
     color: hsl(165, 100%, 40%);
+    font-size: 3ch;
 }
 
 h1 {
     /*color of heading*/
     color:teal;
 }
+
+p[class="_strokes"] {
+    font-size: 1.5em;
+
+}
+
+summary[class="_newPost"] {
+    font-size: 0.5cm;
+
+}
+
+label[class="_Poster"] {
+    font-size: 4mm;
+}
+
+label[class="_Date"] {
+    font-size: 0.175in;
+}
+
+
