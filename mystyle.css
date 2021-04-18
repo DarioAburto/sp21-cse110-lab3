@@ -3,6 +3,12 @@ body {
     background-color: honeydew;
 }
 
+@media only screen and (max-width: 600px){
+    body{
+        background-color: mediumspringgreen;
+    }
+}
+
 .teal {
     color: rgb(0, 128 , 128);
 }
@@ -29,9 +35,9 @@ b[class="none"] {
     font-size: 3ch;
 }
 
-h1 {
+h1, p {
     /*color of heading*/
-    color:teal;
+    color: teal;
 }
 
 p[class="_strokes"] {
@@ -109,7 +115,7 @@ button:hover {
 }
 
 a:active{
-    color: teal;
+    color: red;
 }
 
 .container {
@@ -137,9 +143,27 @@ a:active{
 }
 
 .grid > div {
-    background-color: lavender;
     margin: 10px;
     padding: 20;
     font-size: 30px;
-
 }
+.grid div {
+    background-color: lavender;
+}
+
+h2 + p {
+    background-color: white;
+}
+
+h3 ~ p {
+    background-color: white;
+}
+
+div.Choices {
+    color: lightpink;
+}
+
+html {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+
