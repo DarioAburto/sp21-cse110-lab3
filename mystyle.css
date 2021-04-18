@@ -10,6 +10,9 @@ body {
     color: #ff6699;
     font-size: 1.5rem;
 }
+#red {
+    color: red;
+}
 
 b[class="red"] {
     color: red;
@@ -107,4 +110,36 @@ button:hover {
 
 a:active{
     color: teal;
+}
+
+.container {
+    display: flex;
+    background-color: lightyellow;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.container > div {
+    background-color: honeydew;
+    margin: 10px;
+    padding: 20;
+    font-size: 30px;
+}
+
+.grid {
+    display: grid;
+    background-color: lightskyblue;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-column-gap: 10x;
+    grid-row-gap: 10x; 
+}
+
+.grid > div {
+    background-color: lavender;
+    margin: 10px;
+    padding: 20;
+    font-size: 30px;
+
 }
